@@ -51,8 +51,9 @@ function iLoveTheBeatles(num) {
     do {
         empty.push("I love the Beatles!");
         i++;
-    } while (i < num + 1);
+    } while (i < num - 16);
         return empty; 
+        
     } else {
         do {
         empty.push("I love the Beatles!");
@@ -60,5 +61,7 @@ function iLoveTheBeatles(num) {
     } while (i < num + 1);
   return empty;
     }
+    
+    
 }
 
