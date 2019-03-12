@@ -53,15 +53,3 @@ function iLoveTheBeatles(num) {
   return empty;
 }
 
-function iLoveTheBeatles(num) {
-  var i = 0;
-  var empty = [];
-  do {
-    empty.push("I love the Beatles!");
-    i++;
-  } while (i < num - 16)
-  return empty;
-}
-
-iLoveTheBeatles(17);
-
